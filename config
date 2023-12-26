@@ -188,7 +188,7 @@ smart_borders on
 # Resizing containers:
 #
 mode "resize" {
-    # left will shrink the containers width
+    # left will shrink rhe containers width
     # right will grow the containers width
     # up will shrink the containers height
     # down will grow the containers height
@@ -206,6 +206,7 @@ mode "resize" {
     # Return to default mode
     bindsym Return mode "default"
     bindsym Escape mode "default"
+    bindsym $mod+r mode "default"
 }
 bindsym $mod+r mode "resize"
 
