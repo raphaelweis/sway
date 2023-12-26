@@ -66,6 +66,7 @@ exec wl-paste -t text --watch clipman store --no-persist
 
 # remove window title borders (keep a one pixel border)
 default_border pixel
+smart_borders on
 
 ### Key bindings
 #
