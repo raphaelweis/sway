@@ -36,8 +36,9 @@ output eDP-1 scale 2
 #
 # Example configuration:
 #
-exec swayidle -w \
-	timeout 300 'swaymsg "output * power off" && systemctl suspend' resume 'swaymsg "output * power on"'
+# This is bugged (on desktop at least)
+# exec swayidle -w \
+# 	timeout 300 'swaymsg "output * power off" && systemctl suspend' resume 'swaymsg "output * power on"'
 
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
